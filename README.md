@@ -1,1 +1,1 @@
-# An implementation of g-methods: g-formula, IPW, and g-estimation
+# An implementation of g-methods: g-formula, inverse probability weighting, and g-estimation
