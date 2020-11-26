@@ -11,7 +11,7 @@ package (https://github.com/malcolmbarrett/cidata) for more information.
 
 ## Quick Start divnn R
 
-<a href="https://github.com/herdiantrisufriyana/gmethods/blob/main/vignettes/quick-start-R.html">
+<a href="https://htmlpreview.github.io/?https://github.com/herdiantrisufriyana/gmethods/blob/main/vignettes/quick-start-R.html">
 Read vignette for simple example in R</a>
 
 <a href="https://github.com/herdiantrisufriyana/gmethods/blob/main/vignettes/quick-start.R">Download R script</a>
