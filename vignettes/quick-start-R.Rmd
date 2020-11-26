@@ -74,14 +74,14 @@ results_gformula
 ```
 
 
-## Inverse probability weighting (IPW)
+## IPW
 
 ```{r Inverse probability weighting (IPW)}
 results_ipw
 ```
 
 
-# g-estimation
+## g-estimation
 
 ```{r g-estimation}
 results_gestimation

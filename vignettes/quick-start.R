@@ -27,11 +27,11 @@ results_gestimation=gestimation(formula,data,verbose=T)
 results_gformula
 
 
-## Inverse probability weighting (IPW)
+## IPW
 
 results_ipw
 
 
-# g-estimation
+## g-estimation
 
 results_gestimation
