@@ -18,7 +18,7 @@ Read vignette for simple example in R</a>
 
 <a href="https://github.com/herdiantrisufriyana/gmethods/blob/main/man/gmethods_0.1.0.pdf">Reference manual</a>
 
-References
+## References
 
 [1] Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman
 & Hall/CRC.
