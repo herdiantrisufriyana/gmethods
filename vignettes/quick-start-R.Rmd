@@ -43,10 +43,12 @@ vignette: >
 ```{r Load this package, include=F}
 library(gmethods)
 library(tidyverse)
+library(pbapply)
+library(geepack)
 ```
 
 
-# Load example data for formula and data
+# Make input example
 
 ```{r Load example data for formula and data}
 input=input_example()

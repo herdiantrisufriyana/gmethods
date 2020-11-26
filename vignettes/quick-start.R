@@ -1,9 +1,12 @@
 # Load this package
 
 library(gmethods)
+library(tidyverse)
+library(pbapply)
+library(geepack)
 
 
-# Load example data for formula and data
+# Make input example
 
 input=input_example()
 formula=input$formula
