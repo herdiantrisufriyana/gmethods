@@ -16,4 +16,4 @@ Read vignette for simple example in R</a>
 
 <a href="https://github.com/herdiantrisufriyana/gmethods/blob/main/vignettes/quick-start.R">Download R script</a>
 
-<a href="https://github.com/herdiantrisufriyana/gmethods/blob/main/man/divnn_0.1.1.pdf">Reference manual</a>
+<a href="https://github.com/herdiantrisufriyana/gmethods/blob/main/man/gmethods_0.1.0.pdf">Reference manual</a>
