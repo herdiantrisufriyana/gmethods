@@ -1,0 +1,50 @@
+Package: gmethods
+Type: Package
+Title: An implementation of g-methods
+Version: 0.1.0
+Date: 2020-11-26
+Authors@R: 
+    c(person(given = "Herdiantri",
+             family = "Sufriyana",
+             role = c("aut", "cre"),
+             email = "herdiantrisufriyana@unusa.ac.id",
+             comment = c(ORCID = "0000-0001-9178-0222")),
+      person(given = "Yu-Wei",
+             family = "Wu",
+             role = c("ths"),
+             email = "yuwei.wu@tmu.edu.tw",
+             comment = c(ORCID = "0000-0002-5603-1194")),
+      person(given = "Emily Chia-Yu",
+             family = "Su",
+             role = c("ths"),
+             email = "emilysu@tmu.edu.tw",
+             comment = c(ORCID = "0000-0003-4801-5159"))
+    )
+Depends: R (>= 4.0.2)
+Description: This package facilitates causal inference by implementing
+  g-methods: g-formula, inverse probability weighting (IPW), and g-estimation.
+  These methods are  comprehensively described in Causal Inference: What If book
+  by Hernán and Robins using 1 of 4 NHEFS datasets described in this book
+  (https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/). This
+  package only provides nhefs table, a cleaned version of NHEFS data, for
+  example data. The remaining datasets from that book could be retrieved from
+  cidata R package (https://github.com/malcolmbarrett/cidata) for more
+  information.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    tidyverse,
+    pbapply,
+    geepack
+Suggests:
+    BiocStyle,
+    knitr,
+    rmarkdown,
+    kableExtra,
+    testthat
+URL: https://github.com/herdiantrisufriyana/gmethods
+BugReports: https://github.com/herdiantrisufriyana/gmethods/issues
+VignetteBuilder: knitr
