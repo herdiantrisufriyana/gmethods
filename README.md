@@ -3,7 +3,7 @@
 This package facilitates causal inference by implementing g-methods: g-formula,
 inverse probability weighting (IPW), and g-estimation. These methods are
 comprehensively described in Causal Inference: What If book by Hernán and Robins
-sup>1</sup> using 1 of 4 NHEFS datasets described in this book
+<sup>1</sup> using 1 of 4 NHEFS datasets described in this book
 (https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/). This
 package only provide nhefs table, a cleaned version of NHEFS data, for example
 data. The remaining datasets from that book could be retrieved from cidata R
