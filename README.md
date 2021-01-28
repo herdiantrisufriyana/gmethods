@@ -9,7 +9,7 @@ package only provide nhefs table, a cleaned version of NHEFS data, for example
 data. The remaining datasets from that book could be retrieved from cidata R
 package (https://github.com/malcolmbarrett/cidata) for more information.
 
-## Quick Start divnn R
+## Quick Start gmethods R
 
 <a href="https://htmlpreview.github.io/?https://github.com/herdiantrisufriyana/gmethods/blob/main/vignettes/quick-start-R.html">
 Read vignette for simple example in R</a>
