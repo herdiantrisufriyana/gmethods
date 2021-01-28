@@ -8,7 +8,8 @@ gestimation(formula, data, bootstrap = 30, state = 33, verbose = F)
 }
 \arguments{
 \item{formula}{An object of class "formula": a symbolic description of the
-model to be fitted.}
+model to be fitted. The exposure of interest should be plugged-in as the
+first covariate at the left-hand size of the formula.}
 
 \item{data}{A data frame containing the variables in the model.}
 
