@@ -6,7 +6,7 @@
 #'
 #' @param formula An object of class "formula": a symbolic description of the
 #' model to be fitted. The exposure of interest should be plugged-in as the
-#' first covariate at the left-hand size of the formula.
+#' first covariate at the right-hand size of the formula.
 #' @param data A data frame containing the variables in the model.
 #' @param bootstrap An integer determining how many times this procedure
 #' being repeated by resampling with replacement.
