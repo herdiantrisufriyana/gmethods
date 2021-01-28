@@ -10,7 +10,7 @@ gformula(formula, data, bootstrap = 30, state = 33, verbose = F)
 \item{formula}{An object of class "formula": a symbolic description of the
 model to be fitted.}
 
-\item{data}{An data frame containing the variables in the model.}
+\item{data}{A data frame containing the variables in the model.}
 
 \item{bootstrap}{An integer determining how many times this procedure
 being repeated by resampling with replacement.}

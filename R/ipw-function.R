@@ -7,7 +7,7 @@
 #'
 #' @param formula An object of class "formula": a symbolic description of the
 #' model to be fitted.
-#' @param data An data frame containing the variables in the model.
+#' @param data A data frame containing the variables in the model.
 #' @param bootstrap An integer determining how many times this procedure
 #' being repeated by resampling with replacement.
 #' @param state An integer to set random seed for reproducible results.
