@@ -38,8 +38,9 @@ ipw=function(formula,data,bootstrap=30,state=33,verbose=F){
   once_ipw=function(formula,data){
 
     exposure=str_split(as.character(formula)[3],' \\+ ')[[1]]
+    confounder=paste(exposure[-1], collapse = " + ")
     exposure=paste(
-      c(exposure[1],paste(exposure[-1],collapse=' + '))
+      c(exposure[1],ifelse(confounder=='',1,confounder))
       ,collapse=' ~ '
     )
     exposure=as.formula(exposure)
